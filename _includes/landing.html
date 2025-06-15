@@ -5,8 +5,12 @@
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
-      </div>
+        <img src="{{ site.author.image | relative_url }}" 
+     alt="{{ site.author.name }}" 
+     class="circle-image wow zoomIn animated" 
+     data-wow-delay=".1s" 
+     style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+	  </div>
     </div>
 
     <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
