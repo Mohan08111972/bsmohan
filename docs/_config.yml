@@ -4,9 +4,9 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "https://bsmohan72.github.io/"              # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          :                      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : 
+baseurl             : "/portfolYOU"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -20,18 +20,18 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-
+  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
-  name              : Mohan B S
-  image             : ./bsmohan/assets/bsmohan.png
-# behance           : your_username
+  name              : John Doe
+  image             : https://i.imgur.com/uyDNQnn.jpg
+  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
   facebook          : your_username
-  github            : Mohan08111972
+  github            : your_username
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
@@ -42,7 +42,7 @@ author:
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-# twitter           : your_username
+  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
