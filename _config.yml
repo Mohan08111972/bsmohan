@@ -1,10 +1,12 @@
 ### Site Settings ###
-title               : B S Mohan
+title               : portfolYOU
 description         : >-
-                      HOME PAGE
-baseurl             : ""                       # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          :                          # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : 
+                      I turn coffee :coffee: into code,
+                      use tabs over spaces
+                      and never broke production.
+baseurl             : "/bsmohan"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : mohansanketh/bsmohan      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : mohansanketh/bsmohan
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
