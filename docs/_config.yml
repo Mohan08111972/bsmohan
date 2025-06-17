@@ -4,8 +4,8 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "https://bsmohan72.github.io/bsmohan/"              # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : bsmohan72                     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+baseurl             : "https://bsmohan72.github.io/"              # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          :                      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : 
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -25,7 +25,7 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : bsmohan
+  name              : Mohan B S
   image             : ./bsmohan/assets/bsmohan.png
 # behance           : your_username
 # dribbble          : your_username
